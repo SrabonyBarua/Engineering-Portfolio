@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srabony Barua - Engineering Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        section {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Srabony Barua</h1>
+        <p>Mechanical Engineer | Robotics | CAD Design</p>
+    </header>
+    
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate mechanical engineer with expertise in CAD modeling, robotics, automation, and engineering design. My portfolio showcases various projects, including autonomous robots, simulation models, and innovative engineering solutions.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Roller Coaster Simulation</strong> - Designed and built a roller coaster prototype using SolidWorks and VEX automation, achieving 90% energy efficiency.</li>
+            <li><strong>Autonomous RoboSub</strong> - Developed an underwater vehicle for the 2025 RoboSub Competition, achieving 95% navigation accuracy.</li>
+            <li><strong>Power Apps - AT Library</strong> - Created a digital library app using Power Apps, reducing processing time by 40%.</li>
+            <li><strong>3D Printing & Rapid Prototyping</strong> - Optimized fabrication processes, reducing production time by 50%.</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>CAD Software: SolidWorks, AutoCAD</li>
+            <li>Simulation Tools: ANSYS, MATLAB</li>
+            <li>Prototyping: 3D Printing, CNC Machining</li>
+            <li>Control Systems: Arduino, VEX Robotics</li>
+            <li>Data Management: Excel, Power Apps</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Srabony Barua | Engineering Portfolio</p>
+    </footer>
+</body>
+</html>
